@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .btnEnviar {
+            text-size-adjust: 5;
+            color: white;
+            background: palevioletred;
+        }
+    </style>
+    <h1>formulario registro</h1>
+    <form action="post.html" method="POST">
+        <label for="">Nombre:</label>
+        <input type="text" name="nombre" id="nombre"> <br><br>
+        <label for="">Apellido: </label>
+        <input type="text" name="apellido" id="apellido"><br><br>
+        <label for="">Edad: </label>
+        <input type="number" name="edad" id="edad"><br><br>
+        <label for="">Email: </label>
+        <input type="text" name="email" id="email"><br><br>
+        <label for="">Contraseña: </label>
+        <input type="password" name="contraseña" id="contraseña"><br><br>
+        <p>Sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+        </p>
+        <p>
+            <input name="info_" type="checkbox" value="info_correo_cofirmacion" /> Deseo recibir la informaicon a mi correo
+            <br>
+            <input name="terminos_condiciones" type="checkbox" value="terminos_condiciones" /> Declaro haber leido los terminos y condiciones del programa <br>
+            <button class="btnEnviar"> enviar</button>
+</body>
+
+</html>
